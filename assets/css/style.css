@@ -120,7 +120,7 @@ img.row {
     
 }
 
-#background {
+.background {
     padding: 50px 0px 50px 0px;
     background-image: url("../images/hip-square.png");
 }
@@ -256,17 +256,26 @@ p#copyright {
         margin-right: 20px;
     }
 
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
     .container {
-        width: 580px;
+        width: 530px;
 
     }
 
     .pgTitle {
         width: 100%;
         margin: 0px;
+        padding: 25px 0px 25px 0px;
         
     }
 
@@ -290,5 +299,69 @@ p#copyright {
 
     p {
         width: auto;
+    }
+
+    img.row {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .background {
+        width: 100%;
+    }
+
+    #pets {
+        height: 30px;
+        width: 510px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -70px;
+       
+    }
+
+    #flightTrack {
+        height: 30px;
+        width: 510px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -490px;
+}
+
+    #travel {
+        height: 30px;
+        width: 510px;
+        font-size: 22px;
+        margin-top: -490px;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+    #dining {
+        height: 30px;
+        width: 510px;
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -70px;
+    }
+
+    #dog {
+        height: 30px;
+        width: 510px;
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -70px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
     }
 }
